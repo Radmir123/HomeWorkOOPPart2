@@ -1,7 +1,9 @@
-public class Truck extends ServiceStation {
+public class Truck extends TransportCommon {
 
     public String modelName;
     public int wheelsCount;
+
+
     @Override
     public void updateTyre() {
         System.out.println("Меняем покрышку");
@@ -14,8 +16,10 @@ public class Truck extends ServiceStation {
     public void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }
+
+
+
+
 }
 
-/*
 
- */

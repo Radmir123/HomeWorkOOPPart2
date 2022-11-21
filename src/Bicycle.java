@@ -1,10 +1,17 @@
-public class Bicycle extends ServiceStation {
+public class Bicycle extends TransportCommon {
     public String modelName;
     public int wheelsCount;
-
-    @Override
+@Override
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
+
+
+
+
+
+
+
+
 }
 
